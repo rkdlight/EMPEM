@@ -1,0 +1,58 @@
+
+header{
+	background: #FFFFFF;
+	box-shadow: 0px 4px 99px rgba(0, 0, 0, 0.15);
+	margin-bottom: 55px;
+}
+.nav-link{
+	font-size: 20px;
+	color: #000;
+}
+
+#logo{
+	width: 152.73px;
+	height: 16px;
+}
+.navicons{
+	color: #0055AA;
+}
+.margin_bottom_55{
+	margin-bottom: 55px;
+}
+.margin_bottom_88{
+	margin-bottom: 88px;
+}
+.stat-numbers{
+	font-family: 'Tilda Sans';
+	font-style: normal;
+	font-weight: 700;
+	font-size: 80.1062px;
+	line-height: 112.8%;
+	/* or 90px */
+
+
+	color: #0055AA;
+}
+.stat-text{
+	font-family: 'Tilda Sans';
+	font-style: normal;
+	font-weight: 700;
+	font-size: 30.627px;
+	line-height: 97%;
+	width: min-content;
+    display: inline-block;
+    margin: 10px;
+}
+.stat-wrapper{
+	display: inline-block;
+}
+
+.stat-heading{
+	font-family: dela-gothic-one, sans-serif;
+	font-style: normal;
+	font-weight: 700;
+	font-size: 64px;
+	line-height: 118.3%;
+	color: #0055AA;
+	margin-bottom: 75px;
+}
