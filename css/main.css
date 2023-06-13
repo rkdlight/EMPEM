@@ -1,3 +1,11 @@
+@font-face {
+    font-family: 'Dela Gothic One';
+    src: url('./assets/fonts/DELAGOTHICONE-REGULAR.TTF') format('ttf');
+    font-weight: 400;
+    font-style: normal;
+
+}
+
 
 header{
 	background: #FFFFFF;
@@ -13,46 +21,46 @@ header{
 	width: 152.73px;
 	height: 16px;
 }
-.navicons{
+.adv_card{
+	min-height: 264px;
+	background: #FFFFFF;
+	box-shadow: 0px 4px 24px rgba(0, 0, 0, 0.1);
+	border-radius: 30px;
+}
+.text-blue{
 	color: #0055AA;
 }
-.margin_bottom_55{
-	margin-bottom: 55px;
-}
-.margin_bottom_88{
-	margin-bottom: 88px;
-}
-.stat-numbers{
-	font-family: 'Tilda Sans';
+.adv_numbers{
+	font-family: 'Dela Gothic One';
 	font-style: normal;
-	font-weight: 700;
-	font-size: 80.1062px;
-	line-height: 112.8%;
-	/* or 90px */
-
-
-	color: #0055AA;
-}
-.stat-text{
-	font-family: 'Tilda Sans';
-	font-style: normal;
-	font-weight: 700;
-	font-size: 30.627px;
-	line-height: 97%;
-	width: min-content;
-    display: inline-block;
-    margin: 10px;
-}
-.stat-wrapper{
-	display: inline-block;
-}
-
-.stat-heading{
-	font-family: dela-gothic-one, sans-serif;
-	font-style: normal;
-	font-weight: 700;
+	font-weight: 400;
 	font-size: 64px;
+	line-height: 112.8%;
+	width: fit-content;
+}
+.adv_text{
+	font-family: 'Golos Text';
+	font-style: normal;
+	font-weight: 400;
+	font-size: 25px;
+	line-height: 97%;
+	margin-top: auto;
+	margin-bottom: auto;
+	width: fit-content;
+}
+.adv_card_history{
+	background: linear-gradient(277.34deg, #F70000 -28.32%, #0055AA 99.63%);
+	border-radius: 30px;
+	min-height: 264px;
+	
+}
+.adv_text_history{
+	font-family: 'Dela Gothic One';
+	font-style: normal;
+	font-weight: 400;
+	font-size: 41.2632px;
 	line-height: 118.3%;
-	color: #0055AA;
-	margin-bottom: 75px;
+}
+.margin-bottom-50{
+	margin-bottom: 50px;
 }
